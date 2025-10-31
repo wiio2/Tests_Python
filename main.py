@@ -29,7 +29,7 @@ def login():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        # проверка логина и пароля
+        
         if username =='123' and password=='123':
             return 'Вы вошли в систему!'
         else:
